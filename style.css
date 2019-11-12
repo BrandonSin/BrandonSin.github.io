@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Prata|Press+Start+2P&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,0.8)!important;
+}
+
+.navbar-brand img {
+    height: 4rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: turquoise;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:white ;
+}
+
+/* landing-page  */
+
+.home-inner {
+    background-image: url(images/collage.jpg);
+   
+    background-size: 100% auto;
+  
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    font-size: 5vw;
+    position: absolute;
+    top: 40%;
+    z-index: 1; /*always display ontop of background */
+    color: rgb(8, 8, 8)
+ 
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem rgb(184, 209, 221);
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 3vw;
+    text-shadow: .1rem .1rem .5rem rgb(184, 209, 221);
+    padding-bottom: 1.5rem; 
+
+}
+.abouts h2{
+    margin-right: 10%;
+    margin-left: 10%;
+
+
+}
+.abouts h3{
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.4rem;
+
+
+}
+.abouts li{
+    color: black;
+    font-family: 'Prata', serif;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+.col-12 p {
+    color: black;
+    font-family: 'Prata', serif;
+    margin-right: 10%;
+    margin-left: 10%;
+  
+}
+.col-12 p::first-letter{
+    text-transform: uppercase;
+    font-family:'Press Start 2P', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 5px;
+  
+}
+.col-12 a{
+    margin: 45%;
+    size: 50px;
+}
+
+
+
+
+.col btn:hover{
+    color: blue;
+
+}
+
+.email {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.contactMessage h2 {
+    text-align: center;
+    color: black;
+}
+
+.message{
+    width: 60%;
+    margin-left:25%;
+    color: black; 
+
+}
+
+.btn-primary.gradient {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+	background: -moz-linear-gradient(top,  #33a6cc 50%, #0099cc 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#33a6cc), color-stop(50%,#0099cc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #33a6cc 50%,#0099cc 50%); /* IE10+ */
+	background: linear-gradient(to bottom,  #33a6cc 50%,#0099cc 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33a6cc', endColorstr='#0099cc',GradientType=0 ); /* IE6-9 */
+}
+
+
+.btn-primary.gradient:hover, .btn-primary.gradient:focus, .btn-primary.gradient:active, .btn-primary.gradient.active, .open > .dropdown-toggle.btn-primary {
+	background: -moz-linear-gradient(top,  #66b2cc 50%, #33a6cc 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#66b2cc), color-stop(50%,#33a6cc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #66b2cc 50%,#33a6cc 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #66b2cc 50%,#33a6cc 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #66b2cc 50%,#33a6cc 50%); /* IE10+ */
+	background: linear-gradient(to bottom,  #66b2cc 50%,#33a6cc 50%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b2cc', endColorstr='#33a6cc',GradientType=0 ); /* IE6-9 */
+}
+
+.contact h3{
+    text-align: center;
+    font-size: 20px;
+  
+   
+    
+
+}
+.contact h1{
+    text-align: center;
+  
+
+}
+.contact a{
+    margin: 45%;
+    
+
+}
+
+.center{
+    width: 30%; 
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.project p{
+    color: black;
+    font-family: 'Prata', serif;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+.project p::first-letter{
+    text-transform: uppercase;
+    font-family:'Press Start 2P', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    
+  
+}
+.project h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.project h3{
+    margin-left: 10%;
+    font-size: 1.8em;
+}
+
+.project a{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+hr {
+    border-style: solid;
+    display:block;
+    width: 80%;               
+    background-color:#0099cc;
+    height: 25px;
+  }
+
+.wrapper{
+    text-align: center;
+    display:block;
+}
+
+.homes h2{
+    font-size: 5vw;
+    -webkit-text-stroke: 1px black;
+   color: #0099cc;
+   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1 -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.homes h1{
+    font-size: 2vw;
+    -webkit-text-stroke: 1px black;
+   color: #0099cc;
+   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1 -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
