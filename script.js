@@ -1,6 +1,6 @@
 //script
 function gameReview(){
-    window.open("gameReview.html");
+    window.open("https://brandonsin.github.io/gameReview/index.html");
 }
 
 function resume(){
