@@ -14,6 +14,21 @@ function linkedIn(){
 function facebook(){
     window.open("https://www.facebook.com/brandon.sin.712");
 }
+function report(){
+    window.open("docs/Report.pdf");
+}
+
+function dataVis(){
+    window.open("https://jasondam07.github.io/final-implementation/index.html");
+}
+
+function c4(){
+    window.open("https://github.com/BrandonSin/connectFourLocal");
+}
+
+function vr(){
+    window.open("https://brandonsin.github.io/CPSC-481-Group-3/");
+}
 
 
 

@@ -238,4 +238,29 @@ hr {
    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1 -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.
+.project_image{
+    border-radius: 8px;
+    width: 70%;
+    min-width: 780px;
+    min-height: 500px;
+    height: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+ 
+}
+
+.project_button{
+    display: block;
+    margin-left:10%;
+    background-color: aqua;
+    border-radius: 15px;
+    box-shadow: 0 9px lightgrey;
+}
+
+.project_button:hover {
+    background-color: #0099cc;
+    box-shadow: 0 5px lightslategrey;
+    transform: translate(0px, 8px) skew(0deg, 10deg);
+}
+    
