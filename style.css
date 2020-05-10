@@ -176,6 +176,8 @@ body {
 .center{
     width: 30%; 
     height: 20%;
+    min-width: 400px;
+    min-height: 400px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -262,5 +264,14 @@ hr {
     background-color: #0099cc;
     box-shadow: 0 5px lightslategrey;
     transform: translate(0px, 8px) skew(0deg, 10deg);
+}
+
+.videoProject {
+    min-width: 400px;
+    min-height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
     
