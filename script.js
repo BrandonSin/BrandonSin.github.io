@@ -29,7 +29,14 @@ function c4(){
 function vr(){
     window.open("https://brandonsin.github.io/CPSC-481-Group-3/");
 }
-
-
+function clickGame(){
+    window.open("https://brandonsin.github.io/buttonmasher/");
+}
+function clickGameReport(){
+    window.open("gameMasherReport.html");
+}
+function clickGameCode(){
+    window.open("https://github.com/BrandonSin/buttonmasher");
+}
 
 
