@@ -20,14 +20,21 @@
 
   </head>
   <div id="projects" class = "project">
-    <br><br><br><h1>Clicker Game Report</h1><br>
+    <br><br><br>
+    
+    <h1>Clicker Game Report</h1>
+    <button class ="project_button" type="button" onclick="location.href='index.html';">Return Home</button>
+
+    <br>
     <h3>A Hero's Duel Button Masher Game </h3>
     <br>
     <p>This project was made with React frontend. I conducted an interview with a classmate whom he informed of his hobbies and how he spent his days during
         the pandemic. From what I garnered, he is a video game ethusiast. From playing games to reading lores to eventually creating games on Godot. I can safely
         say that my statement about him is correct. My interviewee really enjoys the dark souls series, therefore I wanted to create something
-        special for him. From my early sketches, I wanted to create a game that requires a bit of reaction time such as pressing a button within the time limit
-        or something that relates to "boss-fighting". To brainstorm my ideas, I went with the 10 + 10 concept art method in determining the best idea.
+        special for him. <br/><br/>To summarize what dark souls is. It is a game that does not hold the hands of a player. The player must learn
+        and adapt to the mechanics of the game through trial-and-error in order to succeed.Therefore, I wanted to create something that gives off the vibe of dark souls.
+        To brainstorm my ideas, I went with the 10 + 10 method in determining the best idea. From my early sketches, I wanted to create a game that requires a bit of reaction time such as pressing a button within the time limit
+        or something that relates to "boss-fighting". A lot of sketches depict some type of on-rail gameplay with a button to react with the environment.
     </p><br>
     <div class="grid">
         <img src="images/masher/draft1.png"></img>
@@ -59,13 +66,35 @@
         <img src="images/masher/sketch10.png"></img>
     </div>
     <br><br>
-    <p>In these sketches, there are a variety of different approaches I could do for a clicker game. Sketch 10 and 8 were ones I had in mind
+    <p>In these sketches, there are a variety of different approaches I could do for a clicker game. Sketch 2 is an interesting choice, as it takes player to a 
+        first person perspective, however, the animation would need to be precise in order to have a seamless experience. As a result, Sketch 10 and 8 were the ones I had in mind
         on creating the game. Since dark souls is a hard game I wanted to make a gauntlet run that can roughly simulate the difficulty of the game. For Sketch 8,
         it is a depiction of a boss battle that requires the player to go offensively and defensively. Of course since the game is a singular button, the player's 
         aggression would be completely dictated by the game's pace. However, in every project one of the most important aspect is if the product is achievable or not.
-        Unfortunately, it is my first time working with React and with limited time, I decided to go with sketch 5. Which is a simple attack button performed to defeat a singular enemy
-        before the time runs out. Down below is a video demonstration of what the game looks like in every state. 
-    </p><br><br>
+        Unfortunately, it is my first time working with React and with limited time. I decided to go with a fusion of sketch 1 and sketch 5. A simple button masher that has a timer
+        for additive difficulty and a health bar like any other rpgs. 
+    </p><br>
+    <section class="creditWrapper">
+        <h3>Artistic Choices</h3>
+        <ul>
+            <li>The pulsing red button conveys the notion of urgency. Which is what I want the player to have when
+                trying to mash the button before the timer runs out
+            </li>
+            <li>The timer like the pulsing red button gives out the sense of urgency and adding some difficulty to the game to better
+                emulate how dark souls feel.
+            </li>
+            <li>The Dark background compliments the red pulsing button by making it stand out
+            </li>
+            <li>The Adventurer sprite is just like how every other player is in the game, an Adventurer who is exploring an unknown world
+            </li>
+            <li>I chose this worm monster because of its features. It has similar artistic style as the adventurer and it's on the level of grotesque like dark souls
+            </li>
+            <li>The Health bar is a common feature of any rpg games and it's good feedback for the player's progress
+            </li>
+        </ul>
+
+    </section>
+    <br>
     <section class= "video_wrap">
     <video height="500" controls>
     <source src="video/clickerGameDemo.mp4" type="video/mp4">
@@ -76,13 +105,20 @@
     </div>
     <br>
     <button class ="project_button" type="button" onclick="clickGame()">Clicker Game</button>
+    <br>
+    <button class ="project_button" type="button" onclick="clickGameCode()">Source Code</button>
+
 
     <br>
-    <h3>Credits</h3>
-    <ul>
-        <li>Adventurer Sprite By rvros</li>
-        <li>Fire Worm Sprite By LuizMelo</li>
-    </ul>
+    <section class="creditWrapper">
+        <h3>Credits</h3>
+        <ul>
+            <li>Adventurer Sprite By rvros</li>
+            <li>Fire Worm Sprite By LuizMelo</li>
+        </ul>
+
+    </section>
+    
 
     <br><hr><br>
 

@@ -296,4 +296,11 @@ hr {
     flex-direction: column;
     align-items: center;
 }
-    
+.centerWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.creditWrapper{
+    margin-left: 10vw;
+}
