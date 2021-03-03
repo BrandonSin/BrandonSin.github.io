@@ -29,6 +29,8 @@ function c4(){
 function vr(){
     window.open("https://brandonsin.github.io/CPSC-481-Group-3/");
 }
+
+// Game Report
 function clickGame(){
     window.open("https://brandonsin.github.io/buttonmasher/");
 }
@@ -37,6 +39,15 @@ function clickGameReport(){
 }
 function clickGameCode(){
     window.open("https://github.com/BrandonSin/buttonmasher");
+}
+
+// Tuner Report
+
+function tunerRepo(){
+    window.open("https://github.com/BrandonSin/instrumentTuner")
+}
+function tuner(){
+    window.open("https://brandonsin.github.io/instrumentTuner/")
 }
 
 

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Brandon Sin Personal Web Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8d7b4e55cb.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link href = "fixed.css" rel ="stylesheet">
+    <link  href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+
+  </head>
+  <div id="projects" class = "project">
+    <br><br><br>
+    
+    <h1>Violin Tuner Report</h1>
+    <button class ="project_button" type="button" onclick="location.href='index.html';">Return Home</button>
+
+    <br>
+    <h3>A Violin Tuner App </h3>
+    <br>
+    <p>This project was made with React frontend. The purpose of this project was to incorporate audio without voice command. From there I had several ideas
+        pertaining to what the App could be. 
+    </p><br>
+    <div class="grid">
+        <img src="images/tuner/draft1.png"></img>
+        <img src="images/tuner/draft2.png"></img>
+        <img src="images/tuner/draft3.png"></img>
+        <img src="images/tuner/draft4.png"></img>
+        <img src="images/tuner/draft5.png"></img>
+        <img src="images/tuner/draft6.png"></img>
+        <img src="images/tuner/draft7.png"></img>
+        <img src="images/tuner/draft8.png"></img>
+        <img src="images/tuner/draft9.png"></img>
+        <img src="images/tuner/draft10.png"></img>
+    </div>
+    <br><br>
+    <p>From these rough sketches, sketch number 2 was the closet to what I would imagine if the dark souls series was reduced to
+        a single button game. The other sketches was missing a crucial aspect of dark souls which is the boss fight itself. From my decision, I yet again
+        created another 10 sketches of sketch 2 to further develop the idea.
+    </p><br><br>
+    <div class="grid">
+        <img src="images/tuner/sketch1.png"></img>
+        <img src="images/tuner/sketch2.png"></img>
+        <img src="images/tuner/sketch3.png"></img>
+        <img src="images/tuner/sketch4.png"></img>
+        <img src="images/tuner/sketch5.png"></img>
+        <img src="images/tuner/sketch6.png"></img>
+        <img src="images/tuner/sketch7.png"></img>
+        <img src="images/tuner/sketch8.png"></img>
+        <img src="images/tuner/sketch9.png"></img>
+        <img src="images/tuner/sketch10.png"></img>
+    </div>
+    <br><br>
+    <p>In these sketches, there are a variety of different approaches I could do for a clicker game. Sketch 2 is an interesting choice, as it takes player to a 
+        first person perspective, however, the animation would need to be precise in order to have a seamless experience. As a result, Sketch 10 and 8 were the ones I had in mind
+        on creating the game. Since dark souls is a hard game I wanted to make a gauntlet run that can roughly simulate the difficulty of the game. For Sketch 8,
+        it is a depiction of a boss battle that requires the player to go offensively and defensively. Of course since the game is a singular button, the player's 
+        aggression would be completely dictated by the game's pace. However, in every project one of the most important aspect is if the product is achievable or not.
+        Unfortunately, it is my first time working with React and with limited time. I decided to go with a fusion of sketch 1 and sketch 5. A simple button tuner that has a timer
+        for additive difficulty and a health bar like any other rpgs. 
+    </p><br>
+    <section class="creditWrapper">
+        <h3>Artistic Choices</h3>
+        <ul>
+            <li>The pulsing red button conveys the notion of urgency. Which is what I want the player to have when
+                trying to mash the button before the timer runs out
+            </li>
+            <li>The timer like the pulsing red button gives out the sense of urgency and adding some difficulty to the game to better
+                emulate how dark souls feel.
+            </li>
+            <li>The Dark background compliments the red pulsing button by making it stand out
+            </li>
+            <li>The Adventurer sprite is just like how every other player is in the game, an Adventurer who is exploring an unknown world
+            </li>
+            <li>I chose this worm monster because of its features. It has similar artistic style as the adventurer and it's on the level of grotesque like dark souls
+            </li>
+            <li>The Health bar is a common feature of any rpg games and it's good feedback for the player's progress
+            </li>
+        </ul>
+
+    </section>
+    <br>
+    <section class= "video_wrap">
+    <video height="500" controls>
+    <source src="video/clickerGameDemo.mp4" type="video/mp4">
+        Sorry, your browser does not support embedded videos.
+    </video>
+    </section>
+
+    </div>
+    <br>
+    <button class ="project_button" type="button" onclick="tuner()">Tuner</button>
+    <br>
+    <button class ="project_button" type="button" onclick="tunerRepo()">Source Code</button>
+
+
+    <br>
+    <section class="creditWrapper">
+        <h3>Credits</h3>
+        <ul>
+            <li>d3 speedometer plugin by: Palerdot</li>
+        </ul>
+
+    </section>
+    
+
+    <br><hr><br>
+
+</html>
