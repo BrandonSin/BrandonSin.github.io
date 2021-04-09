@@ -50,4 +50,13 @@ function tuner(){
     window.open("https://brandonsin.github.io/instrumentTuner/")
 }
 
+// vid chat report
+
+function chatRepo(){
+    window.open("https://github.com/BrandonSin/toddler-video-chat/")
+}
+function chat(){
+    window.open("https://brandonsin.github.io/toddler-video-chat/")
+}
+
 
