@@ -23,14 +23,52 @@
     <br><br><br>
     
     <h1>Violin Tuner Report</h1>
-    <button class ="project_button" type="button" onclick="location.href='index.html';">Return Home</button>
+    <button class ="project_button" type="button" onclick="location.href='index.html#instrumentTunerProj';">Return Home</button>
 
     <br>
     <h3>A Violin Tuner App </h3>
     <br>
-    <p>This project was made with React frontend. The purpose of this project was to incorporate audio without voice command. From there I had several ideas
-        pertaining to what the App could become. 
+    <p>This project was made with React frontend. The purpose of this project was to incorporate audio but not necessarily voice command. Using
+        Api Such as Media Stream and Speedometer, the final idea was a Violin Tuner. The following videos are demos used on
+        IOS and Android respectively.
+    
     </p><br>
+
+    <br>
+    <section class= "video_wrap">
+    <video height="500" controls>
+    <source src="video/tuner.mp4" type="video/mp4">
+        Sorry, your browser does not support embedded videos.
+    </video>
+    <video height="500" controls>
+        <source src="video/tuner2.mp4" type="video/mp4">
+        </video>
+    </section>
+
+  
+    <br>
+    <button class ="project_button" type="button" onclick="tuner()">Tuner</button>
+    <br>
+    <button class ="project_button" type="button" onclick="tunerRepo()">Source Code</button>
+    <br>
+    <section class="creditWrapper">
+        <h3>Design Choices</h3>
+        <ul>
+            <li>
+                Background Colors are similar to a varnished Violin
+            </li>
+            <li>
+                The note changes to color green whenever the sound is within the frequency range
+            </li>
+            <li>
+                The meter gives a visual to the user where the current frequency is
+            </li>
+        </ul>
+<br>
+    </section>
+    <p>These are some of the rough sketches of early days on an audio application. Some ideas were taking in audio feed such as pitch
+        to draw with different colors or platforming games that uses volume for navigation.
+    </p>
     <div class="grid">
         <img src="images/tuner/draft1.png"></img>
         <img src="images/tuner/draft2.png"></img>
@@ -63,38 +101,7 @@
     <p>These are some of ideas for the interfaces of the tuner. I decided to go with sketch 4 as I believe I could incorporate the idea within the time and ability constraint.
         In addition, the application would provide the user the frequency and the current note which are useful for tuning any instrument.
     </p><br>
-    <section class="creditWrapper">
-        <h3>Artistic Choices</h3>
-        <ul>
-            <li>
-                Background Colors are similar to a varnished Violin
-            </li>
-            <li>
-                The note changes to color green whenever the sound is within the frequency range
-            </li>
-            <li>
-                The meter gives a visual to the user where the current frequency is
-            </li>
-        </ul>
-
-    </section>
-    <br>
-    <section class= "video_wrap">
-    <video height="500" controls>
-    <source src="video/tuner.mp4" type="video/mp4">
-        Sorry, your browser does not support embedded videos.
-    </video>
-    <video height="500" controls>
-        <source src="video/tuner2.mp4" type="video/mp4">
-        </video>
-    </section>
-
-    </div>
-    <br>
-    <button class ="project_button" type="button" onclick="tuner()">Tuner</button>
-    <br>
-    <button class ="project_button" type="button" onclick="tunerRepo()">Source Code</button>
-
+    
 
     <br>
     <section class="creditWrapper">
@@ -107,5 +114,6 @@
     
 
     <br><hr><br>
+</div>
 
 </html>
